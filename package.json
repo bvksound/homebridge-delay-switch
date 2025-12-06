@@ -1,39 +1,26 @@
 {
-  "name": "homebridge-delay-switch",
-  "version": "3.2.5",
-  "description": "Delay switches for Homebridge",
-  "license": "MIT",
-  "keywords": [
-    "homebridge-plugin",
-    "delay",
-    "timer",
-    "automation"
-  ],
+  "name": "homebridge-delay-switch-bvksound",
+  "version": "1.0.0",
+  "description": "Delay Switch for Homebridge (bvksound fork, Homebridge v2 ready)",
+  "author": "Bart Vande Keere",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nitaybz/homebridge-delay-switch.git"
+    "url": "https://github.com/bvksound/homebridge-delay-switch.git"
   },
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-delay-switch/issues"
+    "url": "https://github.com/bvksound/homebridge-delay-switch/issues"
   },
-  "engines": {
-  "homebridge": "^1.6.0 || ^2.0.0",
-  "node": "^18.20.4 || ^20.15.1 || ^22"
-  },
-  "funding": [
-    {
-      "type": "paypal",
-      "url": "https://paypal.me/nitaybz"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/nitaybz"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/nitaybz"
-    }
+  "homepage": "https://github.com/bvksound/homebridge-delay-switch#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "delay",
+    "switch"
   ],
+  "engines": {
+    "homebridge": "^1.6.0 || ^2.0.0",
+    "node": "^18.20.4 || ^20.15.1 || ^22"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
